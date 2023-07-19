@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    animation-name: harsh;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes harsh {
+    0% {
+        margin-left: 0px;
+        margin-top: 0;
+    }
+
+    25% {
+        margin-left: 1250px;
+        margin-top: 0px;
+        border-radius: 100%;
+        background-color: blue; 
+
+    }
+
+    50% {
+        margin-left: 1250PX;
+        margin-top: 500px;
+        background-color: green;
+
+    }
+
+    75% {
+        margin-left: 0px;
+        margin-top: 500PX;
+        background-color: blue; 
+        border-radius: 100%;
+        
+    }
+
+    100%{
+        margin-top: 0px;
+        margin-left: 0;
+        background-color: red;
+        border-radius: 100%;
+
+    }
+
+}
